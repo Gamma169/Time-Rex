@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 8436a9831a3ec2a43984532be467f2bf
+timeCreated: 1517079900
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: eye_L
+    100002: eye_R
+    100004: eyebrow_L
+    100006: eyebrow_R
+    100008: lid-1_L
+    100010: lid-1_R
+    100012: lid-2_L
+    100014: lid-2_R
+    100016: lid-3_L
+    100018: lid-3_R
+    100020: mouth_back
+    100022: mouth_bottom
+    100024: mouth_top
+    100026: pupil_L
+    100028: pupil_R
+    100030: //RootNode
+    400000: eye_L
+    400002: eye_R
+    400004: eyebrow_L
+    400006: eyebrow_R
+    400008: lid-1_L
+    400010: lid-1_R
+    400012: lid-2_L
+    400014: lid-2_R
+    400016: lid-3_L
+    400018: lid-3_R
+    400020: mouth_back
+    400022: mouth_bottom
+    400024: mouth_top
+    400026: pupil_L
+    400028: pupil_R
+    400030: //RootNode
+    2100000: material_9___27912
+    2100002: material_25___27912
+    2100004: MultiMat_0
+    2100006: material_21___27912
+    2100008: material_17___27912
+    2300000: eye_L
+    2300002: eye_R
+    2300004: eyebrow_L
+    2300006: eyebrow_R
+    2300008: lid-1_L
+    2300010: lid-1_R
+    2300012: lid-2_L
+    2300014: lid-2_R
+    2300016: lid-3_L
+    2300018: lid-3_R
+    2300020: mouth_back
+    2300022: mouth_bottom
+    2300024: mouth_top
+    2300026: pupil_L
+    2300028: pupil_R
+    3300000: eye_L
+    3300002: eye_R
+    3300004: eyebrow_L
+    3300006: eyebrow_R
+    3300008: lid-1_L
+    3300010: lid-1_R
+    3300012: lid-2_L
+    3300014: lid-2_R
+    3300016: lid-3_L
+    3300018: lid-3_R
+    3300020: mouth_back
+    3300022: mouth_bottom
+    3300024: mouth_top
+    3300026: pupil_L
+    3300028: pupil_R
+    4300000: mouth_back
+    4300002: mouth_top
+    4300004: mouth_bottom
+    4300006: eye_R
+    4300008: eyebrow_R
+    4300010: lid-1_R
+    4300012: lid-2_R
+    4300014: lid-3_R
+    4300016: pupil_R
+    4300018: eye_L
+    4300020: eyebrow_L
+    4300022: lid-1_L
+    4300024: lid-2_L
+    4300026: lid-3_L
+    4300028: pupil_L
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
