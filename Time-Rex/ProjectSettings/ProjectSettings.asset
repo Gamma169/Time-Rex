@@ -636,7 +636,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 703d5840-b1ca-4ac7-bae1-72c095ef40ba
-  projectName: Time-Rex (1)
+  projectName: Time-Rex
   organizationId: gamma169
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
