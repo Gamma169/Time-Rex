@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114659254201871066}
   - component: {fileID: 145310790313203546}
   m_Layer: 0
-  m_Name: SnapDropZone
+  m_Name: CustomSnapDropZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class HoldingController : MonoBehaviour {
 
+	public bool objectInSpot;
+
+	public bool correctObject;
+
+	public string correctName;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,5 +18,20 @@ public class HoldingController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void OnTriggerStay(Collider col) {
+		if (col.gameObject.tag == "Obj") {
+			objectInSpot = true;
+			if (col.gameObject.name == correctName)
+				correctObject = true;
+		}
+	}
+
+	void OnTriggerExit(Collider col) {
+		if (col.gameObject.tag == "Obj") {
+			objectInSpot = false;
+			correctObject = false;
+		}
 	}
 }

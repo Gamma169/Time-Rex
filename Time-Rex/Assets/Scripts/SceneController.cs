@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour {
 
+	public HoldingController[] hcs;
+
+	public bool win;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,9 +17,16 @@ public class SceneController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R)) {
-			Debug.Log("ASDFHH");
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
 		}
+
+
+		for (int i = 0; i < hcs.Length && !win; i++) {
+			win = hcs[i].correctObject;
+			if (!win)
+				break;
+		}
+
+		Debug.Log(win);
 	}
 }
