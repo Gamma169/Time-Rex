@@ -28,26 +28,11 @@ public class TailPositioner : MonoBehaviour {
 
 		float yAngle = 0;
 
-		if (handsAvg.z > headPos.z) {
-			if (handsAvg.x > headPos.x) {
-				yAngle = -Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
-			}
-			else {
-				yAngle = - Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
-			}
-		}
-		else {
-			if (handsAvg.x > headPos.x) {
-				yAngle = -Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
-			}
-			else {
-				yAngle = -Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
-			}
-		}
-
-
+		yAngle = -Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
 
 		float zAngle = 0;
+
+		//zAngle = 90 + Mathf.Rad2Deg*Mathf.Atan2(handsAvg.x - headPos.x, handsAvg.y - headPos.y);
 		 
 		/*
 		if (handsAvg.y > headPos.y) {
