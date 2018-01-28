@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour {
 
+	public static float timeLeft = 200f;
+
 	public HoldingController[] hcs;
 
 	public bool win;
+	public bool lose;
+
+	public bool playing;
+
+	public AudioSource halfdone;
 
 	// Use this for initialization
 	void Start () {
@@ -20,13 +27,36 @@ public class SceneController : MonoBehaviour {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 
-
-		for (int i = 0; i < hcs.Length && !win; i++) {
-			win = hcs[i].correctObject;
-			if (!win)
-				break;
+		int correct = 0;
+		for (int i = 0; i < hcs.Length && !win ; i++) {
+			if (hcs[i].correctObject) {
+				correct++;
+			}
 		}
 
-		Debug.Log(win);
+		if (win || correct >= hcs.Length) {
+			win = true;
+		}
+		else if (correct >= 3) {
+			playing = true;
+
+		}
+
+		else {
+			win = false;
+			playing = false;
+		}
+
+		halfdone.enabled = playing;
+
+		timeLeft -= Time.deltaTime;
+		if (timeLeft < 0) {
+			win = false;
+			if (!lose) {
+				lose = true;
+			}
+		}
+
+		//Debug.Log(win);
 	}
 }

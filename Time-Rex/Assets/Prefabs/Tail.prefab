@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33789844216115542}
   - component: {fileID: 23207687744559982}
   - component: {fileID: 136696207298941454}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 33398373589920306}
   - component: {fileID: 135358250265960146}
   - component: {fileID: 23776504890910872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 33423860360907438}
   - component: {fileID: 65221086409646866}
   - component: {fileID: 23282703567467920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,8 +74,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4563154091322726}
   - component: {fileID: 114832420261493826}
-  - component: {fileID: 54043057691160636}
-  m_Layer: 0
+  - component: {fileID: 54997197204802866}
+  m_Layer: 10
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004553157176592}
   m_Mesh: {fileID: 4300000, guid: bc70332a56e9aa24685eeff5a3a9205c, type: 3}
---- !u!54 &54043057691160636
+--- !u!54 &54997197204802866
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

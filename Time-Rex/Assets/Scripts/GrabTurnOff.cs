@@ -13,7 +13,13 @@ public class GrabTurnOff : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (vrtk.isGrabbable)
+        {
+            vrtk.touchHighlightColor = Color.yellow;
+        }
+        else {
+            vrtk.touchHighlightColor = Color.clear;
+        }
 	}
 
 	void OnTriggerEnter(Collider col) {

@@ -8,6 +8,8 @@ public class TailPositioner : MonoBehaviour {
 	public GameObject leftHand;
 	public GameObject rightHand;
 
+	public float minDist = 1.25f;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -30,7 +32,13 @@ public class TailPositioner : MonoBehaviour {
 
 		yAngle = -Mathf.Rad2Deg*Mathf.Atan2(handsAvg.z - headPos.z, handsAvg.x - headPos.x);
 
+
 		float zAngle = 0;
+		if (handsAvg.y < minDist) {
+			zAngle = -90;
+		}
+
+
 
 		//zAngle = 90 + Mathf.Rad2Deg*Mathf.Atan2(handsAvg.x - headPos.x, handsAvg.y - headPos.y);
 		 

@@ -21,6 +21,13 @@ ModelImporter:
     400010: Untitled_60_Rainbow_geo
     400012: Untitled_60_SoftHighlighter_geo
     400014: Untitled_60_VelvetInk_geo
+    2100000: 4391aaaadf7343969e3331e4e4930b27_Disco
+    2100002: d229d335c334495aa801660ac8a87360_VelvetInk
+    2100004: ad1ad43776e2450da23ae17f8310b960_Rainbow
+    2100006: accb32f54509454f93f81df3fd31df1b_SoftHighlighter
+    2100008: 3ca16e2fbdcd4da28631dcef342f40f1_DuctTape
+    2100010: cb92b59794ca4255b0170e3f42f12f9e_Fire
+    2100012: 4391aaaadf8143969e3331e4e4930b27_LightWire
     2300000: Untitled_60_Disco_geo
     2300002: Untitled_60_DuctTape_geo
     2300004: Untitled_60_Fire_geo
@@ -80,7 +87,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 0
     keepQuads: 0

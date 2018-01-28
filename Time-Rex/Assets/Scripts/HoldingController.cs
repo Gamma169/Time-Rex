@@ -17,7 +17,9 @@ public class HoldingController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (correctName == "ArtifactB" && correctObject) {
+            //Debug.Log("Test");
+        }
 	}
 
 	void OnTriggerStay(Collider col) {
